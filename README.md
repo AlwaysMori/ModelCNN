@@ -1,7 +1,7 @@
 
 ## Proses Pelatihan dengan Convolutional Neural Network (CNN)
 
-Proyek ini menggunakan arsitektur **Convolutional Neural Network (CNN)** untuk mendeteksi penyakit pada tanaman selada. Model dibangun dengan menggunakan TensorFlow dan Keras, serta memanfaatkan augmentasi data untuk meningkatkan performa model. Berikut adalah detail dari proses pelatihan:
+Proyek ini menggunakan arsitektur **Convolutional Neural Network (CNN)** untuk mendeteksi penyakit. Model dibangun dengan menggunakan TensorFlow dan Keras, serta memanfaatkan augmentasi data untuk meningkatkan performa model. Berikut adalah detail dari proses pelatihan:
 
 ### 1. **Preprocessing Data**
 Dataset diproses menggunakan **ImageDataGenerator** untuk:
