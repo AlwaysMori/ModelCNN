@@ -32,3 +32,6 @@ Dataset diproses menggunakan **ImageDataGenerator** untuk:
 | 70        | 0.9658               | 0.1210            | 0.1104            | 0.9644                | Peningkatan signifikan pada performa model. |
 | 80        | 0.9746               | 0.0824            | **0.0945**        | **0.9723**            | Model dengan performa terbaik. |
 | 90        | 0.9422               | 0.1396            | 0.1512            | 0.9447                | Terjadi overfitting pada model. |
+
+* [Augmented Lettuce Disease](https://drive.google.com/drive/folders/1bhB271ddAAcfuHirvlMnS0ssrSFt3MN8?usp=sharing)
+* [Original Dataset](https://www.kaggle.com/datasets/ashishjstar/lettuce-diseases)
