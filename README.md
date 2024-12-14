@@ -27,10 +27,11 @@ Dataset diproses menggunakan **ImageDataGenerator** untuk:
 
 | **Epoch** | **Training Accuracy** | **Training Loss** | **Validation Accuracy** | **Validation Loss** | **Deskripsi**                                      |
 |-----------|------------------------|-------------------|--------------------------|---------------------|---------------------------------------------------|
-| 60        | 97.01%                | 0.1336            | 96.05%                  | 0.1439              | Model memiliki performa terbaik dengan validation accuracy tertinggi dan validation loss terendah. |
-| 70        | 93.97%                | 0.1794            | 93.68%                  | 0.1792              | Validation accuracy menurun, kemungkinan tanda awal overfitting.                          |
+| 50        | 92.68%                | 0.2347            | 92.49%                  | 0.2123              | Model mulai menunjukkan performa yang baik, namun masih dapat ditingkatkan.              |
+| **60**        | **97.01%**                | **0.1336**            | **96.05%**                  | **0.1439**              | **Model memiliki performa terbaik dengan validation accuracy tertinggi dan validation loss terendah.** |
+| 70        | 93.97%                | 0.1794            | 93.68%                  | 0.1792              | Validation accuracy menurun dibanding epoch 60, kemungkinan tanda awal overfitting.      |
 | 80        | 93.53%                | 0.3162            | 93.68%                  | 0.2103              | Validation loss meningkat, menunjukkan model terlalu kompleks dan overfitting terjadi.   |
-
+| 90        | 94.22%                | 0.1396            | 94.47%                  | 0.1511              | Validation accuracy meningkat kembali, tetapi validation loss sedikit lebih tinggi dari epoch 60. |
 
 * [Augmented Lettuce Disease](https://drive.google.com/drive/folders/1bhB271ddAAcfuHirvlMnS0ssrSFt3MN8?usp=sharing)
 * [Original Dataset](https://www.kaggle.com/datasets/ashishjstar/lettuce-diseases)
