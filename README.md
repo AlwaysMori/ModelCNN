@@ -25,13 +25,12 @@ Dataset diproses menggunakan **ImageDataGenerator** untuk:
 - **Jumlah Epoch**: 50 - 90
 ## Hasil Training Model
 
-| **Epoch** | **Akurasi Training** | **Loss Training** | **Loss Validasi** | **Akurasi Validasi** | **Catatan**                     |
-|-----------|-----------------------|-------------------|-------------------|-----------------------|----------------------------------|
-| 50        | 0.9268               | 0.2347            | 0.2123            | 0.9249                | Hasil awal dari pelatihan model. |
-| 60        | 0.9701               | 0.1336            | 0.1439            | 0.9605                | Akurasi meningkat dibandingkan sebelumnya. |
-| 70        | 0.9658               | 0.1210            | 0.1104            | 0.9644                | Peningkatan signifikan pada performa model. |
-| 80        | 0.9746               | 0.0824            | **0.0945**        | **0.9723**            | Model dengan performa terbaik. |
-| 90        | 0.9422               | 0.1396            | 0.1512            | 0.9447                | Terjadi overfitting pada model. |
+| **Epoch** | **Training Accuracy** | **Training Loss** | **Validation Accuracy** | **Validation Loss** | **Deskripsi**                                      |
+|-----------|------------------------|-------------------|--------------------------|---------------------|---------------------------------------------------|
+| 60        | 97.01%                | 0.1336            | 96.05%                  | 0.1439              | Model memiliki performa terbaik dengan validation accuracy tertinggi dan validation loss terendah. |
+| 70        | 93.97%                | 0.1794            | 93.68%                  | 0.1792              | Validation accuracy menurun, kemungkinan tanda awal overfitting.                          |
+| 80        | 93.53%                | 0.3162            | 93.68%                  | 0.2103              | Validation loss meningkat, menunjukkan model terlalu kompleks dan overfitting terjadi.   |
+
 
 * [Augmented Lettuce Disease](https://drive.google.com/drive/folders/1bhB271ddAAcfuHirvlMnS0ssrSFt3MN8?usp=sharing)
 * [Original Dataset](https://www.kaggle.com/datasets/ashishjstar/lettuce-diseases)
